@@ -7,10 +7,39 @@
 }
 
 .sidebar__userblock{
+  /* レイアウト */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   /* サイズ */
   height: 100px;
   /* ボックス */
   padding: 0 20px;
+}
+
+.sidebar__userblock__user-name{
+  /* テキスト */
+  font-size: 16px;
+  color: #fafafa;
+}
+
+.sidebar__userblock__create-room{
+  /* レイアウト */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* ボックス */
+  border: 1px solid lightblue;
+  padding: 14px 14px;
+  /* 背景 */
+  background-color: #253141;
+}
+
+.sidebar__userblock__create-room a{
+  /* テキスト */
+  font-size: 10px;
+  color: deepskyblue;
+  text-decoration: none;
 }
 
 .sidebar__rooms-index{
@@ -20,4 +49,13 @@
   padding: 0 20px;
   /* 背景 */
   background-color: #2f3e51;
+  /* スクロール */
+  overflow-y: auto;
+}
+
+section{
+  /* ボックス */
+  padding: 20px 0 40px;
+  /* テキスト */
+  color: white;
 }
