@@ -1,29 +1,32 @@
 .mainchat{
-  // サイズ
+  /* サイズ */
   width: calc(100vw - 300px);
   height: 100vh;
-  // 背景
+  /* 背景 */
   background-color: #ffffff;
 }
 
 .mainchat__room-name{
-  // サイズ
+  /* サイズ */
   height: 100px;
+  /* ボックス */
   padding: 0 40px;
 }
 
 .mainchat__chat-content{
-  // サイズ
+  /* サイズ */
   height: calc(100vh - 100px - 90px);
+  /* ボックス */
   padding: 46px 40px 0;
-  // 背景
+  /* 背景 */
   background-color: #fafafa;
 }
 
 .mainchat__form{
-  // サイズ
+  /* サイズ */
   height: 90px;
+  /* ボックス */
   padding: 40px 20px;
-  // 背景
+  /* 背景 */
   background-color: #dddddd;
 }

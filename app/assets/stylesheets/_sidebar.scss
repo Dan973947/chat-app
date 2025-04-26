@@ -1,21 +1,23 @@
 .sidebar{
-  // サイズ
+  /* サイズ */
   width: 300px;
   height: 100vh;
-  // 背景
+  /* 背景*/
   background-color: #253141;
 }
 
 .sidebar__userblock{
-  // サイズ
+  /* サイズ */
   height: 100px;
+  /* ボックス */
   padding: 0 20px;
 }
 
 .sidebar__rooms-index{
-  // サイズ
+  /* サイズ */
   height: calc(100vh - 100px);
+  /* ボックス */
   padding: 0 20px;
-  // 背景
+  /* 背景 */
   background-color: #2f3e51;
 }
