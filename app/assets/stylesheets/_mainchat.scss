@@ -1,32 +1,166 @@
-.mainchat{
-  /* サイズ */
+.mainchat {
+  /* サイズ設定 */
   width: calc(100vw - 300px);
   height: 100vh;
-  /* 背景 */
+  /* 背景設定 */
   background-color: #ffffff;
 }
 
-.mainchat__room-name{
-  /* サイズ */
+.mainchat__roomblock {
+  /* レイアウト設定 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* サイズ設定 */
   height: 100px;
-  /* ボックス */
+  /* ボックス設定 */
   padding: 0 40px;
 }
 
-.mainchat__chat-content{
-  /* サイズ */
-  height: calc(100vh - 100px - 90px);
-  /* ボックス */
-  padding: 46px 40px 0;
-  /* 背景 */
-  background-color: #fafafa;
+.mainchat__roomblock__room-name {
+  /* テキスト設定 */
+  font-size: 24px;
+  color: #333;
 }
 
-.mainchat__form{
-  /* サイズ */
+.mainchat__roomblock__room-exit {
+  /* レイアウト設定 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* ボックス設定 */
+  border: 1px solid darkred;
+  padding: 20px;
+}
+
+.mainchat__roomblock__room-exit a {
+  /* テキスト設定 */
+  color: darkred;
+  text-decoration: none;
+}
+
+.mainchat__chat-content-block {
+  /* サイズ設定 */
+  height: calc(100vh - 100px - 90px);
+  /* ボックス設定 */
+  padding: 46px 40px 0;
+  /* 背景設定 */
+  background-color: #fafafa;
+  /* スクロール設定 */
+  overflow-y: auto;
+}
+
+.mainchat__chat-content-block p {
+  margin: 0;
+}
+
+.mainchat__chat-content-block__header {
+  /* レイアウト設定 */
+  display: flex;
+  align-items: center;
+  /* ボックス設定 */
+  padding: 10px 0;
+}
+
+.mainchat__chat-content-block__user-name {
+  /* ボックス設定 */
+  padding-right: 10px;
+  /* テキスト設定 */
+  font-size: 16px;
+  color: #434a54;
+  line-height: 1;
+}
+
+.mainchat__chat-content-block__time {
+  /* テキスト設定 */
+  font-size: 12px;
+  color: #999;
+  line-height: 1;
+}
+
+.mainchat__chat-content-block__message {
+  /* ボックス設定 */
+  margin-bottom: 40px;
+  /* テキスト設定 */
+  font-size: 14px;
+  color: #434a54;
+}
+
+.mainchat__formblock {
+  /* サイズ設定 */
   height: 90px;
-  /* ボックス */
-  padding: 40px 20px;
-  /* 背景 */
+  /* ボックス設定 */
+  padding: 20px 40px;
+  /* 背景設定 */
   background-color: #dddddd;
+}
+
+.mainchat__formblock form {
+  /* レイアウト設定 */
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.mainchat__formblock__input-wrapper {
+  /* レイアウト設定 */
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  /* サイズ設定 */
+  height: 50px;
+  /* ボックス設定 */
+  margin-right: 15px;
+  /* 背景設定 */
+  background-color: white;
+}
+
+.mainchat__formblock__input-text {
+  /* レイアウト設定 */
+  border: none;
+  flex: 1;
+  /* ボックス設定 */
+  padding-left: 10px;
+}
+
+.mainchat__formblock__attachment-btn {
+  /* レイアウト設定 */
+  display: inline-flex;
+  align-items: center;
+}
+
+.mainchat__formblock__attachment-btn__text {
+  /* レイアウト設定 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* サイズ設定*/
+  height: 40px;
+  /* ボックス設定 */
+  margin-right: 10px;
+  padding: 0 16px;
+  /* 背景設定 */
+  background-color: lightblue;
+  /* テキスト設定 */
+  font-size: 16px;
+  color: white;
+}
+
+.mainchat__formblock__attachment-btn__input-file {
+  /* レイアウト設定 */
+  display: none;
+}
+
+.mainchat__formblock__input-submit {
+  /* レイアウト設定 */
+  border: none;
+  /* サイズ設定 */
+  height: 50px;
+  /* ボックス設定 */
+  padding: 0 20px;
+  /* 背景設定 */
+  background-color: #38aef0;
+  /* テキスト設定 */
+  font-size: 16px;
+  color: white;
 }

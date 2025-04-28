@@ -1,61 +1,61 @@
 .sidebar{
-  /* サイズ */
+  /* サイズ設定 */
   width: 300px;
   height: 100vh;
-  /* 背景*/
+  /* 背景設定*/
   background-color: #253141;
 }
 
 .sidebar__userblock{
-  /* レイアウト */
+  /* レイアウト設定 */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* サイズ */
+  /* サイズ設定 */
   height: 100px;
-  /* ボックス */
+  /* ボックス設定 */
   padding: 0 20px;
 }
 
 .sidebar__userblock__user-name{
-  /* テキスト */
+  /* テキスト設定 */
   font-size: 16px;
   color: #fafafa;
 }
 
 .sidebar__userblock__create-room{
-  /* レイアウト */
+  /* レイアウト設定 */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* ボックス */
+  /* ボックス設定 */
   border: 1px solid lightblue;
   padding: 14px 14px;
-  /* 背景 */
+  /* 背景設定 */
   background-color: #253141;
 }
 
 .sidebar__userblock__create-room a{
-  /* テキスト */
+  /* テキスト設定 */
   font-size: 10px;
   color: deepskyblue;
   text-decoration: none;
 }
 
 .sidebar__rooms-index{
-  /* サイズ */
+  /* サイズ設定 */
   height: calc(100vh - 100px);
-  /* ボックス */
+  /* ボックス設定 */
   padding: 0 20px;
-  /* 背景 */
+  /* 背景設定 */
   background-color: #2f3e51;
-  /* スクロール */
+  /* スクロール設定 */
   overflow-y: auto;
 }
 
 section{
-  /* ボックス */
+  /* ボックス設定 */
   padding: 20px 0 40px;
-  /* テキスト */
+  /* テキスト設定 */
   color: white;
 }
