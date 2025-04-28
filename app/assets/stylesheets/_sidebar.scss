@@ -1,0 +1,61 @@
+.sidebar{
+  /* サイズ設定 */
+  width: 300px;
+  height: 100vh;
+  /* 背景設定*/
+  background-color: #253141;
+}
+
+.sidebar__userblock{
+  /* レイアウト設定 */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* サイズ設定 */
+  height: 100px;
+  /* ボックス設定 */
+  padding: 0 20px;
+}
+
+.sidebar__userblock__user-name{
+  /* テキスト設定 */
+  font-size: 16px;
+  color: #fafafa;
+}
+
+.sidebar__userblock__create-room{
+  /* レイアウト設定 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* ボックス設定 */
+  border: 1px solid lightblue;
+  padding: 14px 14px;
+  /* 背景設定 */
+  background-color: #253141;
+}
+
+.sidebar__userblock__create-room a{
+  /* テキスト設定 */
+  font-size: 10px;
+  color: deepskyblue;
+  text-decoration: none;
+}
+
+.sidebar__rooms-index{
+  /* サイズ設定 */
+  height: calc(100vh - 100px);
+  /* ボックス設定 */
+  padding: 0 20px;
+  /* 背景設定 */
+  background-color: #2f3e51;
+  /* スクロール設定 */
+  overflow-y: auto;
+}
+
+section{
+  /* ボックス設定 */
+  padding: 20px 0 40px;
+  /* テキスト設定 */
+  color: white;
+}

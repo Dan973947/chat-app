@@ -1,0 +1,11 @@
+/* application.scss */
+
+/* ===== ベーススタイル ===== */
+* {
+  box-sizing: border-box;
+}
+
+/* ===== 各パーツ読み込み ===== */
+@import "sidebar";
+@import "mainchat";
+@import "messages";
